@@ -6,19 +6,16 @@ import nature2 from '../../assets/boats.jpg'
 import nature3 from '../../assets/trees.jpg'
 import nature4 from '../../assets/roomInNature.jpg'
 import locationImg from "../../assets/location.png"
+import { useTranslation } from 'react-i18next'
 
 const Location = () => {
-
+  const { t } = useTranslation();
   return (
     <div className={c.location_container}>
       <img src={sea} alt="Location" className={c.banner} />
       <div className={c.location_info}>
-        <h3>Siz uchun Toyabo&apos;g&apos;iz suv omborida ajoyib joylashuv</h3>
-        <p>Bizning kurortimiz 1.5 gektar maydonda etuk soyali daraxtlar, yam-yashil maysazorlar,
-          bog&apos;lar va Toshkent dengizi bo&apos;ylab kottejlar va ochiq havodagi so&apos;rilarimiz bilan o&apos;ralgan.
-          Bizning tabiiy muhitimiz osoyishtaligidan bahramand bo&apos;ling yoki Toyabo&apos;g&apos;in suv ombori mintaqasidagi
-          eng go&apos;zal maskanlardan birida, Brizda sohil qirg&apos;og&apos;i bo&apos;ylab sayr qiling, baliq ovlang yoki shunchaki
-          manzaradan zavqlaning.</p>
+        <h3>{t("Location.heading")}</h3>
+        <p>{t("Location.info-part1")}</p>
       </div> 
       <div className={c.location_images}>
         <img src={nature1} alt='resorting area' />
@@ -27,18 +24,11 @@ const Location = () => {
         <img src={nature4} alt='resorting area' />
       </div>
       <div className={c.location_text}>
-        <p>Toshkent dengizidagi hududdagi ajoyib Briz dam olish maskani sifatida biz 21 yildan ortiq vaqt davomida
-          eng yaxshi sayyohlik maskanlaridan biri sifatida tan olingan Briz saylgohi
-          shahar markazidan bir necha daqiqa uzoqlikda. Noyob manzaralar, chandan toza musaffo havo,
-          restoranlari va mahalliy joylashuvi bilan bu mijozlarni O&apos;zbekistonnning eng yaxshi so&apos;lim maskaniga chorlaydi.</p>
+        <p>{t("Location.info-part2")}</p>
 
-        <p>Albatta, biz ochiq havoda zavqlanish uchun eng yaxshi joyda joylashganmiz! Briz saylgohi
-        &quot;O&apos;zbekistonning eng yaxshi plyajlaridan biri&quot; deb nomlanganini aytishdan faxrlanamiz
-          va bu mintaqadagi oltita ajoyib jamoat plyajlaridan biri ekanligini aytishdan faxrlanamiz.
-          Shuningdek, siz qayiqda sayohat qilishingiz, baliq ovi bilan shug&quot;ullanishingiz yoki
-          kun davomida tabiatni o&apos;rganishingiz mumkin.</p>
+        <p>{t("Location.info-part3")}</p>
 
-        <p>Bajarish uchun juda ko&apos;p mashg&apos;ulot borki, bir marta tashrif etarli bo&apos;lmasligi mumkin - shuning uchun mehmonlarimiz yildan-yilga ko&apos;payib bormoqda.</p>
+        <p>{t("Location.info-part4")}</p>
       </div>
 
       <div className={c.location_map}>
@@ -46,15 +36,14 @@ const Location = () => {
           <img src={locationImg} alt="Location" className={c.location_url} />
         </a>
         <div className={c.text_map}>
-          <h3 className={c.map_header}>Tashrif buyurish</h3>
-          <p>Tashvishlaringizni ortda qoldirganingizni his qilish uchun uzoqqa sayohat qilishingiz shart emas.
-            Biz bir necha yirik shaharlardan atigi yarim kunlik masofada joylashganmiz.</p>
+          <h3 className={c.map_header}>{t("Location.map-header")}</h3>
+          <p>{t("Location.map-info")}</p>
 
           <ul>
-            <li>Toshkentdan 1.5 soat</li>
-            <li>Chirchiqdan 1.5 soat</li>
-            <li>Ohangarondan 1 soat</li>
-            <li>Vodiydan 4 soat</li>
+            <li>{t("Location.map1")}</li>
+            <li>{t("Location.map2")}</li>
+            <li>{t("Location.map3")}</li>
+            <li>{t("Location.map4")}</li>
           </ul>
         </div>
       </div>

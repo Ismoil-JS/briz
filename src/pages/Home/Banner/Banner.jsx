@@ -1,4 +1,5 @@
 import React from 'react' 
+import { useTranslation } from 'react-i18next'
 import c from './Banner.module.scss'
 import banner from "../../../assets/banner2.jpg"
 import basseyn from "../../../assets/basseyn2.jpg"
@@ -8,27 +9,19 @@ import stols from "../../../assets/stols.jpg"
 import park from "../../../assets/park.jpg"
 import stolAndSea from "../../../assets/naturalStol.jpg"
 const Banner = () => {
+    const {t} = useTranslation();
     return (
         <div className={c.banner_container}>
             <img className={c.banner} src={banner} alt="banner" />
             <div className={c.info}>
                 <h3>
-                    Toshkent dengizi bilan tanishing & Sohildan bahramand boling
+                {t("Main-banner.heading")}
                 </h3>
                 <p>
-                    Briz dam olish maskaniga xush kelibsiz, bu yerda siz tinch dam olishingiz, 
-                    yangilanishingiz va o&apos;zingizni qayta kashf etishingiz mumkin. Go&apos;zal tabiat va 
-                    har bir xonadan, basseyndan tortib dengizgacha ajoyib manzaralarni sizga 
-                    Toshkent shahridan atigi 40km uzoqlikda sizga taklif qilamiz.
+                {t("Main-banner.info-part1")}
                 </p>
                 <p>
-                Tongingizni Tuyabo&apos;g&apos;iz suv omborining toza havosi bilan qarshi oling. 
-                Kunduzi siz bizning kater va qayiqlarimiz bilan dengizni kashf qilishingiz, 
-                sohil bo&apos;ylab sayr qilishingiz, basseynda cho&apos;mishingiz yoki baliq ovlab zavq olishingiz mumkin. 
-                Shuningdek, stol tennisi, billiard, raqs zali bilan restoran, sauna yoki kalyan sizni qiziqtirsa, bu maskan aynan siz uchun.
-                Kechasi, o&apos;t o&apos;choqlari atrofida ajoyib quyosh botishini tomosha qilish yoki 
-                suv bo&apos;yida sohilda o&apos;tirib, yulduzlarni tomosha qilishdan ko&apos;ra go&apos;zalroq manzarani qayta uchratmaysiz.
-                Bolalar uchun maydoncha, o&apos;ynash uchun hona va kichik hayvonot bog&apos;i ham mavjud!
+                {t("Main-banner.info-part2")}
                 </p>
             </div>
             <div className={c.info_images}>

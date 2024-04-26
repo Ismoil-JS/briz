@@ -35,7 +35,7 @@ header {
                 cursor: pointer;
                 color: rgb(25, 111, 86);
                 font-weight: 600;
-                
+                transition: .3 all ease-in-out;
                 
                 a{
                     font-size: 18px;
@@ -44,6 +44,7 @@ header {
                     color: rgb(25, 111, 86);
                     transition: .3s ease-in-out;
                 }
+
             }
             .lang_list_span{
                 &:last-child {
@@ -51,7 +52,7 @@ header {
                   }
             }
 
-            li>a:hover {
+            li>a:hover, li:hover {
                 color: rgb(145, 210, 205);
                 transition: .3 all ease-in-out;
             }

@@ -1,8 +1,10 @@
 import React from 'react'
 import c from "./Footer.module.scss"
 import { FaFacebook, FaInstagram, FaTelegram } from "react-icons/fa6";
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+    const { t } = useTranslation();
 
     return (
         <div className={c.footer_container}>
@@ -19,7 +21,7 @@ const Footer = () => {
             </div>
 
             <div className={c.location}>
-                <p> <i> Briz dam olish maskani </i>  Location: Toshkent dengizi, O'rta Chirchiq, Tashkent
+                <p> <i> {t("Footer.name-breez")} </i>  {t("Footer.location")}
                     <a href="tel: +998-99-444-9959"> +998994449959 </a>
                     <a href="mailto: info@ubi.uz"> info@ubi.uz</a></p>
             </div>

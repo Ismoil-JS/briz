@@ -1,5 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useTranslation } from 'react-i18next'
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -26,11 +27,13 @@ import banner from '../../assets/roomBanner.jpeg'
 
 
 const Rooms = () => {
+  const { t } = useTranslation();
+
   return (
     <div className={c.room_container}>
       <img className={c.banner} src={banner} alt="Kottej" />
 
-      <p> Bu yerda siz xonalarimizning ichki xolati bilan tanishishingiz mumkin. </p>
+      <p> {t("Rooms.heading")} </p>
       <div className={c.inner_container}>
         <div className={c.room}>
           <Swiper
@@ -58,7 +61,7 @@ const Rooms = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        <p>2 kishilik kottej</p>
+        <p>{t("Rooms.kottej2")}</p>
       </div>
       <div className={c.inner_container}>
         <div className={c.room}>
@@ -87,7 +90,7 @@ const Rooms = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        <p>4 kishilik kottej</p>
+        <p>{t("Rooms.kottej4")}</p>
       </div>
       <div className={c.inner_container}>
         <div className={c.room}>
@@ -122,7 +125,7 @@ const Rooms = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        <p>5 kishilik kottej</p>
+        <p>{t("Rooms.kottej5")}</p>
       </div>
       <div className={c.inner_container}>
         <div className={c.room}>
@@ -151,7 +154,7 @@ const Rooms = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        <p>2 kishilik standart uy</p>
+        <p>{t("Rooms.standart2")}</p>
       </div>
       <div className={c.inner_container}>
         <div className={c.room}>
@@ -180,7 +183,7 @@ const Rooms = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        <p>4 kishilik standart uy</p>
+        <p>{t("Rooms.standart4")}</p>
       </div>
     </div>
   )

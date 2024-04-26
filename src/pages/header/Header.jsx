@@ -10,7 +10,7 @@ import { useDispatch } from 'react-redux';
 const Header = () => {
   const dispatch = useDispatch();
   const [menu, setMenu] = useState(false);
-  const langs = ["uz 🇺🇿", "ru 🇷🇺"];
+  const langs = ["uz", "ru"];
   const { t } = useTranslation();
 
   const handleMenu = () => {

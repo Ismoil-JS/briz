@@ -1,0 +1,77 @@
+{
+  "Headers": {
+      "main": "Asosiy",
+      "location": "Joylashuv",
+      "amenity": "Qulayliklar",
+      "rooms": "Xonalar",
+      "price": "Narxlar",
+      "gallery": "Galereya"
+  },
+  "Footer": {
+      "name-breez": "Briz dam olish maskani",
+      "location": "Location: Toshkent dengizi, O'rta Chirchiq, Tashkent"
+  },
+  "Main-banner": {
+      "heading": "Toshkent dengizi bilan tanishing & Sohildan bahramand bo'ling",
+      "info-part1": "Briz dam olish maskaniga xush kelibsiz, bu yerda siz tinch dam olishingiz, yangilanishingiz va o'zingizni qayta kashf etishingiz mumkin. Go'zal tabiat va har bir xonadan, basseyndan tortib dengizgacha ajoyib manzaralarni sizga Toshkent shahridan atigi 40km uzoqlikda sizga taklif qilamiz.",
+      "info-part2": "Tongingizni Tuyabo'g'iz suv omborining toza havosi bilan qarshi oling. Kunduzi siz bizning kater va qayiqlarimiz bilan dengizni kashf qilishingiz, sohil bo'ylab sayr qilishingiz, basseynda cho'mishingiz yoki baliq ovlab zavq olishingiz mumkin. Shuningdek, stol tennisi, billiard, raqs zali bilan restoran, sauna yoki kalyan sizni qiziqtirsa, bu maskan aynan siz uchun. Kechasi, o't o'choqlari atrofida ajoyib quyosh botishini tomosha qilish yoki suv bo'yida sohilda o'tirib, yulduzlarni tomosha qilishdan ko'ra go'zalroq manzarani qayta uchratmaysiz. Bolalar uchun maydoncha, o'ynash uchun hona va kichik hayvonot bog'i ham mavjud!"
+  },
+  "Main-info": {
+      "heading": "Briz - bu mijozlar tanlovi!",
+      "location": "Joylashuv",
+      "amenity": "Qulayliklar",
+      "rooms": "Xonalar",
+      "gallery": "Galereya"
+  },
+  "Location": {
+      "heading": "Siz uchun Toyabo'g'iz suv omborida ajoyib joylashuv",
+      "info-part1": "Bizning kurortimiz 1.5 gektar maydonda etuk soyali daraxtlar, yam-yashil maysazorlar, bog'lar va Toshkent dengizi bo'ylab kottejlar va ochiq havodagi so'rilarimiz bilan o'ralgan. Bizning tabiiy muhitimiz osoyishtaligidan bahramand bo'ling yoki Toyabo'g'in suv ombori mintaqasidagi eng go'zal maskanlardan birida, Brizda sohil qirg'og'i bo'ylab sayr qiling, baliq ovlang yoki shunchaki manzaradan zavqlaning.",
+      "info-part2": "Toshkent dengizidagi hududdagi ajoyib Briz dam olish maskani sifatida biz 21 yildan ortiq vaqt davomida eng yaxshi sayyohlik maskanlaridan biri sifatida tan olingan Briz saylgohi shahar markazidan bir necha daqiqa uzoqlikda. Noyob manzaralar, chandan toza musaffo havo, restoranlari va mahalliy joylashuvi bilan bu mijozlarni O'zbekistonnning eng yaxshi so'lim maskaniga chorlaydi.",
+      "info-part3": "Albatta, biz ochiq havoda zavqlanish uchun eng yaxshi joyda joylashganmiz! Briz saylgohi &quot;O'zbekistonning eng yaxshi plyajlaridan biri&quot; deb nomlanganini aytishdan faxrlanamiz va bu mintaqadagi oltita ajoyib jamoat plyajlaridan biri ekanligini aytishdan faxrlanamiz. Shuningdek, siz qayiqda sayohat qilishingiz, baliq ovi bilan shug&quot;ullanishingiz yoki kun davomida tabiatni o'rganishingiz mumkin.",
+      "info-part4": "Bajarish uchun juda ko'p mashg'ulot borki, bir marta tashrif etarli bo'lmasligi mumkin - shuning uchun mehmonlarimiz yildan-yilga ko'payib bormoqda.",
+      "map-header": "Tashrif buyurish",
+      "map-info": "Tashvishlaringizni ortda qoldirganingizni his qilish uchun uzoqqa sayohat qilishingiz shart emas. Biz bir necha yirik shaharlardan atigi yarim kunlik masofada joylashganmiz.",
+      "map1": "Toshkentdan 1.5 soat",
+      "map2": "Chirchiqdan 1.5 soat",
+      "map3": "Ohangarondan 1 soat",
+      "map4": "Vodiydan 4 soat"
+  },
+  "Amenity": {
+      "heading": "Bizniki - bu Sizniki",
+      "info-part1": "Ba'zi mehmonlarimiz uchun kun bo'yi ko'lga qarashdan ko'ra yaxshiroq yo'l yo'q. Boshqalar uchun ideal kun ular doimo harakatda bo'ladigan kundir. Qaysi yo'lni tanlashingizdan qat'iy nazar, biz sizning mukammal hordiq chiqarishingizni ta'minlash uchun yaxshi qulayliklarga egamiz.",
+      "sunset": "Go'zal quyosh botishi",
+      "sunset-info": "Bu yerdan uzoq tog'lar ostida quyoshning chiroyli tarzda cho'kib ketishini tomosha qilishingiz mumkin, uning ranglari sokin suvlarda chiroyli aks etadi.",
+      "swimming": "Qayiqda suzish",
+      "swimming-info": "O'zizngizni ko'l bag'riga topshirib biz taklif qilgan qayiqlarda kuningizni maroqli o'tkazing va bir umrlik go'zal hotiralarni o'zingiz uchun yarating.",
+      "fishing": "Baliq ovi",
+      "fishing-info": "Baliq ovi bilan asablaringizni tinchlantirishingiz va tabiatdan bahra olishingiz sog'ligingiz uchun juda foydali bo'ladi. Baliq ovi uchun asboblarni esa biz sizga beramiz.",
+      "basseyn": "Doimiy basseyn",
+      "basseyn-info": "Cho'milishni hohlaysizmi? Qaysi vaqt ekanligi muhim emas! Biz sizga 24/7 basseynni taklif etamiz. Hohlasangiz ko'lda ham cho'milishingiz mumkin.",
+      "subheading": "Qulayliklar",
+      "basketball": "Basketbol maydoni",
+      "valeyball": "Voleybol maydoni",
+      "fishingnext": "Baliq ovlash",
+      "tabletennis": "Stol tennisi",
+      "pioneerball": "Pioneerbal",
+      "billiard": "Billiard",
+      "basseynnext": "Basseynda suzish",
+      "food": "3 mahal ovqat",
+      "sauna": "Shinam sauna",
+      "playstation": "Playstation",
+      "boatswimming": "Qayiqda suzish",
+      "katerswimming": "Katerda suzish"
+  },
+  "Rooms": {
+      "heading": "Bu yerda siz xonalarimizning ichki xolati bilan tanishishingiz mumkin.",
+      "kottej2": "2 kishilik kottej",
+      "kottej4": "4 kishilik kottej",
+      "kottej5": "5 kishilik kottej",
+      "standart2": "2 kishilik standart uy",
+      "standart4": "4 kishilik standart uy"
+  },
+  "Pricing": {
+      "heading": "Narxlar",
+      "info": "Xona narxlari Toshkent dengizidagi Briz sayilgohining saytidagi barcha qulayliklar hisobga olgan holda belgilangan. Narxlar bayram va dam olish kunlariga bog'liq o'zgarishi mumkin.",
+      "service": "Xizmatlar"
+  }
+}

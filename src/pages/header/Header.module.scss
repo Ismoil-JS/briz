@@ -13,22 +13,6 @@ header {
         box-sizing: border-box;
     }
 
-    .language_changer{
-        position: fixed;
-        bottom: 40px;
-        right: 40px;
-        padding: 10px;
-        box-sizing: border-box;
-        cursor: pointer;
-        font-size: 18px;
-        color: rgb(25, 111, 86);
-        transition: .3s ease-in-out;
-        border: 2px solid rgb(25, 111, 86);
-        border-radius: 5px;
-        background-color: rgb(183, 244, 69);
-        z-index: 999;
-    }
-
     nav {
         width: 100%;
         display: flex;
@@ -50,6 +34,7 @@ header {
                 margin: 0 10px;
                 cursor: pointer;
                 color: rgb(25, 111, 86);
+                font-weight: 600;
                 
                 
                 a{
@@ -59,7 +44,11 @@ header {
                     color: rgb(25, 111, 86);
                     transition: .3s ease-in-out;
                 }
-                
+            }
+            .lang_list_span{
+                &:last-child {
+                    display: none;
+                  }
             }
 
             li>a:hover {
@@ -148,7 +137,7 @@ header {
             display: flex;
             justify-content: flex-start;
             align-items: center;
-            z-index: 2;
+            z-index: 999;
             transition: 1s ease-in-out;
 
 
@@ -177,6 +166,7 @@ header {
                 flex-direction: column;
                 justify-content: flex-start;
                 align-items: flex-start;
+                gap: 20px;
                 list-style: none;
                 padding: 20px;
                 box-sizing: border-box;
@@ -185,14 +175,25 @@ header {
                 z-index: 99;
 
                 li {
-                    margin: 10px 0;
-                    font-size: 24px;
-                    font-weight: 500;
-                    color: rgb(0, 0, 0);
+                    margin: 0 10px;
                     cursor: pointer;
                     color: rgb(25, 111, 86);
-                    transition: .3s ease-in-out;
+                    font-weight: 600;
+                    
+                    
+                    a{
+                        font-weight: 600;
+                        text-decoration: none;
+                        color: rgb(25, 111, 86);
+                        transition: .3s ease-in-out;
+                    }
                 }
+
+                .lang_mobile{
+                    display: flex;
+                    gap: 10px;
+                }
+                
 
                 li:hover {
                     color: rgb(145, 210, 205);

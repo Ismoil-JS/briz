@@ -6,6 +6,7 @@
         margin-top: 30px;
         display: grid;
         align-items: center;
+        grid-gap: 30px;
         width: 100%;
         grid-template-areas: 
         'image1 image1 image1 image2 image2 image2'
@@ -21,7 +22,16 @@
         'image15 image15 image14 image14 image14 image14'
         'image16 image16 image17 image17 image18 image18'
         'image19 image19 image19 image20 image20 image20';
-        grid-gap: 30px;
+
+        img{
+            transition: transform 0.5s;
+
+            &:hover{
+                transform: scale(1.03);
+                transition: transform 0.5s;
+                border: 1px solid rgb(209, 223, 14);
+            }
+        }
     }
 
     .image1{

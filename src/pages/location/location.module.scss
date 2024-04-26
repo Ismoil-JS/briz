@@ -48,6 +48,7 @@
         align-items: center;
         width: 95%;
         padding: 0 80px;
+        box-sizing: border-box;
         gap: 40px;
 
         img{
@@ -55,6 +56,12 @@
             height: auto;
             aspect-ratio: 1.6/1;
             object-fit: cover;
+            transition: transform 0.5s;
+
+            &:hover{
+                transform: scale(1.05);
+                transition: transform 0.5s;
+            }
         }
     }
 

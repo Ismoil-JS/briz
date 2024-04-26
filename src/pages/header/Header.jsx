@@ -15,10 +15,10 @@ const Header = () => {
   return (
     <header className={c.header}>
       <img src={logo} alt="Logo" className={c.logo} />
-      <select className={c.language_changer}  >
+      {/* <select className={c.language_changer}  >
         <option value="uz">UZ</option>
         <option value="ru">RU</option>
-      </select>
+      </select> */}
 
       <nav className={c.nav}>
         <ul className={c.navList}>

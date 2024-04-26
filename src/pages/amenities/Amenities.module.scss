@@ -68,6 +68,12 @@
                 aspect-ratio: 1/1;
                 object-fit: cover;
                 object-position: top;
+                transition: transform 0.5s;
+
+                &:hover{
+                    transform: scale(1.05);
+                    transition: transform 0.5s;
+                }
             }
 
             h4{
